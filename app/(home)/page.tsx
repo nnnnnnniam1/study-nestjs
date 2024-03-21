@@ -1,3 +1,6 @@
+export const metadata = {
+  title: 'Home | Next Movie',
+}
 
 export default function Page() {
   return (
