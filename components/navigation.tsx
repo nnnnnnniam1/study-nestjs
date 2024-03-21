@@ -7,7 +7,7 @@ export default function Navigation() {
     const path = usePathname();
     return (
         <nav className={styles.nav}>
-            <ul className={styles.list}>
+            <ul>
                 <li><Link href="/">Home</Link> {path === "/" ? "🔥" : ""}</li>
                 <li><Link href="/about-us">About US</Link>{path === "/about-us" ? "🔥" : ""}</li>
             </ul>
