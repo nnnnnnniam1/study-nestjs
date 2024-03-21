@@ -4,7 +4,9 @@
   "description": "��#\u0000 \u0000s\u0000t\u0000u\u0000d\u0000y\u0000-\u0000n\u0000e\u0000s\u0000t\u0000j\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
